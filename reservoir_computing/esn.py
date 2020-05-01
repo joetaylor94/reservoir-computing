@@ -8,11 +8,11 @@ Python script of an echo state network for reservoir computing.
 We extend the reservoir technique first proposed by Jaeger and Haas [1] to
 accommodate external forcing. This approach was recently used by Pathak et 
 al. to predict the spatiotemporal dynamics of the Kuramoto-Sivashinsky 
-equation [2].
+equation [2]. 
 
-This script reads in past measurements of the evolution of a D-dimensional
-dynamical system. Often only L state variables out of a total D are 
-measurable. The number of forcing functions is denoted by F.
+This script reads in past measurements of a D-dimensional dynamical system. 
+Often only L out of D state variables are measurable. F denotes the number 
+of forcing functions.
 
 Example ~ Hodgkin-Huxley Neuron Model:
     
