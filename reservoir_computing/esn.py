@@ -26,9 +26,9 @@ Example ~ Hodgkin-Huxley Neuron Model:
     
     Therefore: D = 4, L = 1, and F = 1.
 
-    One can present the past evolution of membrane voltage to the echo
-    state network during training, and subsequently predict this quantity
-    for times beyond the training dataset.
+    By presenting the past evolution of membrane voltage to the echo
+    state network during training, this quantity can be subsequently
+    predicted for times beyond the training dataset.
 
 [1] "Harnessing nonlinearity: Predicting chaotic systems and saving energy  
     in wireless communication", Science 304, 78 (2004)
