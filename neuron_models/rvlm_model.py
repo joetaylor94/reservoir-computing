@@ -174,7 +174,7 @@ hh = X[:,2]
 nn = X[:,3]
 
 # Adding Gaussian error to voltage trace (mV)
-sigma_obs = 0.0
+sigma_obs = 0.1
 obs_error = np.random.normal(0, sigma_obs, len(VV))
 VV_obs = VV + obs_error
 
