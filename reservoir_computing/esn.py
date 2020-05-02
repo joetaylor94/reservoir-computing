@@ -10,9 +10,11 @@ accommodate external forcing. This approach was recently used by Pathak et
 al. to predict the spatiotemporal dynamics of the Kuramoto-Sivashinsky 
 equation [2]. 
 
-This script reads in past measurements of a D-dimensional dynamical system. 
-Often only L out of D state variables are measurable. F denotes the number 
-of forcing functions.
+This script reads in past measurements of a D-dimensional dynamical system,
+and inputs them as training data for a recurrent neural network - the 
+`reservoir'. Often only L state variables are measurable. F denotes the 
+number of forcing functions - external drivers of the dynamical system. The
+output of the script is the prediction of the future system evolution.
 
 Example ~ Hodgkin-Huxley Neuron Model:
     
